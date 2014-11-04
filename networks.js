@@ -8,7 +8,7 @@ exports.livenet = {
   name: 'livenet',
   magic: hex('f9beb4d9'),
   addressVersion: 0x23,
-  privKeyVersion: 128,
+  privKeyVersion: 191,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
@@ -23,14 +23,9 @@ exports.livenet = {
     bits: 486604799,
   },
   dnsSeeds: [
-    // 'seed.bitcoin.sipa.be',
-    // 'dnsseed.bluematt.me',
-    // 'dnsseed.bitcoin.dashjr.org',
-    // 'seed.bitcoinstats.com',
-    // 'seed.bitnodes.io',
     // 'bitseed.xf2.org'
   ],
-  defaultClientPort: 8333
+  defaultClientPort: 61224
 };
 
 /*{

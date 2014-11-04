@@ -1,10 +1,10 @@
 {
   "name": "bitcore",
-  "description": "Bitcoin Library",
+  "description": "CoinAwesome Library",
   "version": "0.1.39",
   "author": {
-    "name": "Stephen Pair",
-    "email": "stephen@bitpay.com"
+    "name": "Jan Malahov",
+    "email": "i@janislav.com"
   },
   "contributors": [
     {
@@ -121,6 +121,7 @@
     "optimist": "0.6.1",
     "request": "2.39.0",
     "sinon": "^1.10.3",
-    "uglifyify": "=1.2.3"
+    "uglifyify": "=1.2.3",
+    "scryptsy": "0.2.x"
   }
 }
