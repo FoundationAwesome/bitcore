@@ -6,14 +6,15 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('f9beb4d9'),
+  magic: hex('71362306'),
   addressVersion: 0x23,
   privKeyVersion: 191,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('0x00005ce0afa0524504139e33db06026767ade60e65e2bc3913bfa176d7163333'),
+    //hash: hex('0x00005ce0afa0524504139e33db06026767ade60e65e2bc3913bfa176d7163333'),
+    hash: hex('A1F507EB29B380187722CCDA4EB4B84704B31956C40F36E48C53C1'),
     merkle_root: hex('0x0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d'),
     height: 0,
     nonce: 36561,
